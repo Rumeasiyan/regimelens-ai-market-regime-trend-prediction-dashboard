@@ -28,8 +28,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: 'StarterKit Auth',
-    description: 'Minimal Next.js and Clerk starter',
+    title: 'RegimeLens',
+    description: 'AI market regime and trend prediction dashboard for disciplined trading decisions.',
 };
 
 const userButtonAppearance = {
@@ -85,15 +85,15 @@ export default async function RootLayout({
                                 href="/"
                                 className="inline-flex min-w-0 items-center gap-3"
                             >
-                                <span className="flex size-9 items-center justify-center rounded-lg bg-primary text-sm font-semibold text-primary-foreground">
-                                    S
+                                <span className="flex size-9 items-center justify-center rounded-xl bg-[linear-gradient(135deg,var(--brand-cyan),var(--brand-cyan-strong))] text-sm font-semibold text-slate-950 shadow-lg shadow-[var(--brand-cyan)]/25">
+                                    R
                                 </span>
                                 <span className="min-w-0">
                                     <span className="block truncate text-xs font-medium uppercase tracking-[0.24em] text-muted-foreground">
-                                        StarterKit
+                                        RegimeLens
                                     </span>
                                     <span className="block truncate text-sm font-medium text-foreground">
-                                        Authentication
+                                        Market Regime Intelligence
                                     </span>
                                 </span>
                             </Link>
